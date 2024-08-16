@@ -1,0 +1,36 @@
+﻿@model SistemaNote.Models.Notas
+
+@{
+    ViewData["Title"] = "Apagar";
+}
+
+<h1>Apagar</h1>
+
+<h3>Deseja apagar esta Nota?</h3>
+<div>
+    <h4>Notas</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Titulo)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Titulo)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Conteudo)
+        </dt>
+        <dd class = "col-sm-10">
+            @{
+                var conteudo = Model.Conteudo.Length > 50 ? Model.Conteudo.Substring(0, 50) + "..." : Model.Conteudo;
+            }
+            @Html.Raw(conteudo)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="id" />
+        <input type="submit" value="Apagar" class="btn btn-danger" /> |
+        <a asp-action="Index">Voltar</a>
+    </form>
+</div>

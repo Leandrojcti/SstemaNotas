@@ -1,0 +1,14 @@
+﻿
+@model SistemaNote.Models.SenhaModel
+
+<h2>Insira a Senha para Contunuar</h2>
+
+<form asp-action="ValidarSenha" method="post">
+    <div class="form-group">
+        <label for="senha">senha</label>
+        <input type="password" asp-for="senha" class="form-control" />
+        <span asp-validation-for="senha" class="text-danger"></span>
+    </div>
+    <input type="hidden" asp-for="ReturnUrl" />
+    <button type="submit" class="btn btn-primary">Enviar</button>
+</form>

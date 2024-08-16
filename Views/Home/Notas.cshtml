@@ -1,0 +1,21 @@
+﻿
+@model Notas
+
+
+<p><h3>Conteúdo Da Nota: @ViewData["NomeDaNota"] </h3></p>
+
+@if (Model == null)
+{
+    <p>O modelo não retornou resultado (Mulo)</p>
+}
+else
+{
+    <form asp-action="Notas" method="post">
+             <textarea id="NotaTexto" name="NomeNota" rows="23" cols="60" disabled 
+            class="form-control bg-light text-left text-muted p-3 custom-textarea">@Model.Conteudo </textarea>
+        <br />
+       
+
+    </form>
+}
+

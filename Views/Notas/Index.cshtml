@@ -1,0 +1,43 @@
+﻿@model IEnumerable<SistemaNote.Models.Notas>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Painel de Edição</h1>
+
+<p>
+    <a asp-action="Create">Criar Nova Notação</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Titulo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Conteudo)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Titulo)
+            </td>
+            <td>
+                    @{
+                        var ContAbreviado = item.Conteudo.Length > 80 ? item.Conteudo.Substring(0, 80) + "..." : item.Conteudo;
+                    }
+                    @Html.Raw(ContAbreviado)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.id">Editar</a>  
+                <a asp-action="Delete" asp-route-id="@item.id">Apagar</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
