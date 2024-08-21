@@ -757,3 +757,4 @@ C:\Estudos Programação\SistemaNot\obj\Debug\net8.0\refint\SistemaNote.dll
 C:\Estudos Programação\SistemaNot\obj\Debug\net8.0\SistemaNote.pdb
 C:\Estudos Programação\SistemaNot\obj\Debug\net8.0\SistemaNote.genruntimeconfig.cache
 C:\Estudos Programação\SistemaNot\obj\Debug\net8.0\ref\SistemaNote.dll
+C:\Estudos Programação\SistemaNot\obj\Debug\net8.0\SistemaNote.sourcelink.json

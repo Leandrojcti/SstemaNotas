@@ -20,28 +20,19 @@ namespace SistemaNote.Controllers
             _context = context;
         }
 
-        //Metodo chama a view para inserir a senha 
-        //------------------------------------------------------
-
+        //----------------------------------------------------------------------------------------------
         [HttpGet]
-        public IActionResult RequererSenha()
-        {
-            return View();
-        }
-
-        [HttpPost]
-        public IActionResult RequererSenha(string RetornaUrl)
+        public IActionResult RequererSenha(string returnUrl)
         {
             var model = new SenhaModel  //Instancia a ViewModel 
             {
-                ReturnUrl = RetornaUrl // Preenche a ViewModel com a URL que o usuário tentou acessar
+                ReturnUrl = returnUrl // Preenche a ViewModel com a URL que o usuário tentou acessar
             };
             return View(model); // Retorna a view com o formulário de senha
         }
 
-        //-------------------------------------------------------------
+        //--------------------------------------------------------------------------------------------
 
-        //-------------------------------------------------------------
         [HttpPost]
         public IActionResult ValidarSenha(SenhaModel model)
         {
@@ -57,7 +48,15 @@ namespace SistemaNote.Controllers
             return View("RequererSenha", model);  
         }
 
-        //-------------------------------------------------------------
+        //---------------------------------------------------------------------------------------------------
+
+        public IActionResult EncerrarSessao()
+        {
+            HttpContext.Session.Clear(); // Limpa todos os dados da sessão
+            return RedirectToAction("Index", "Home"); // Redireciona para uma página após limpar a sessão
+        }
+
+        //----------------------------------------------------------------------------------------------------
 
         // GET: Notas
         public async Task<IActionResult> Index()  
@@ -88,18 +87,23 @@ namespace SistemaNote.Controllers
             return View(notas);
         }
 
+
+        //--------------------------------------------------------------------------------------------------------------
         // GET: Notas/Edit/5
 
-        [HttpPost]
+        [HttpGet]
         public async Task<IActionResult> Edit(int? id)
         {
+                   //script para proteger a action 
+            //--------------------------------------------------------------------------------------------------------------
             // Verifica se a senha foi verificada anteriormente na sessão
             if (!HttpContext.Session.TryGetValue("PasswordVerified", out _))
             {
                 // Redireciona o usuário para a página de solicitação de senha
-                return RedirectToAction("RequererSenha", new { returnUrl = Url.Action("Edit", new { id }) });
+                //new = preenche a propriedade ReturUrl com a url do edit 
+                return RedirectToAction("RequererSenha", new { ReturnUrl = Url.Action("Edit","Notas",  new { id }) });
             }
-
+            //---------------------------------------------------------------------------------------------------------------
 
             if (id == null)
             {
@@ -119,6 +123,7 @@ namespace SistemaNote.Controllers
         // POST: Notas/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        // Post vem da ação submeter no formulario
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("id,Titulo,Conteudo")] Notas notas)
@@ -154,6 +159,14 @@ namespace SistemaNote.Controllers
         // GET: Notas/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
+            // Verifica se a senha foi verificada anteriormente na sessão
+            if (!HttpContext.Session.TryGetValue("PasswordVerified", out _))
+            {
+                // Redireciona o usuário para a página de solicitação de senha
+                //new = preenche a propriedade ReturUrl com a url do edit 
+                return RedirectToAction("RequererSenha", new { ReturnUrl = Url.Action("Delete", "Notas", new { id }) });
+            }
+
             if (id == null)
             {
                 return NotFound();

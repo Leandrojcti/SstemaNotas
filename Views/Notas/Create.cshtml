@@ -18,21 +18,21 @@
             </div>
             <div class="form-group">
                 <label asp-for="Conteudo" class="control-label"></label>
-                <textarea asp-for="Conteudo" class="form-control" rows="20" cols="100">
+                <textarea asp-for="Conteudo" class="form-control" rows="15" cols="100">
                     
                 </textarea>
                 <span asp-validation-for="Conteudo" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <input type="submit" value="Adicionar" class="btn btn-primary" />
+                <input type="submit" value="Adicionar" class="btn btn-primary" /> |
+                <a asp-action="Index" class="btn btn-primary">Voltar Para Lista</a> |
+                <a href="@Url.Action("EncerrarSessao", "Notas")" class="btn btn-primary">Encerrar Sessão de Senha</a>
             </div>
         </form>
     </div>
 </div>
 
-<div>
-    <a asp-action="Index">Back to List</a>
-</div>
+
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}

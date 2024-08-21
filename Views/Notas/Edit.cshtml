@@ -31,7 +31,9 @@
 </div>
 
 <div>
-    <a asp-action="Index">Voltar</a>
+    <a asp-action="Index" class="btn btn-primary">Voltar</a> |
+
+    <a href="@Url.Action("EncerrarSessao", "Notas")" class="btn btn-primary">Encerrar Sessão de Senha</a>
 </div>
 
 @section Scripts {
