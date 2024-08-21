@@ -1,0 +1,143 @@
+# Compiled binary and object files
+*.exe
+*.dll
+*.so
+*.dylib
+*.pdb
+*.mdb
+
+# Compiled static libraries
+*.lib
+*.a
+
+# Compiled dynamic libraries
+*.dylib
+*.dll
+*.so
+
+# Object files
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic Libraries
+*.lo
+*.la
+
+# Shared objects (Linux)
+*.so
+
+# Executables
+*.exe
+*.out
+*.app
+*.ipa
+*.dSYM/
+
+# Microsoft Visual Studio temporary files
+.vscode/
+.vs/
+*.user
+*.rsuser
+*.suo
+*.sln.docstates
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Office temp files
+~$*
+*.lnk
+
+# Backup files
+*.bak
+*.bkp
+*.tmp
+*.temp
+*.old
+
+*.vsidx
+
+# Packages folder
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+
+# Solution folders
+*.builds/
+*.includemeta
+*.nuget/
+.nuget/
+
+# Output folders
+bin/
+obj/
+out/
+AppPackages/
+PublishProfiles/
+
+# Visual Studio Code settings
+.vscode/
+
+# Rider settings
+.idea/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# StyleCop
+StyleCopReport.xml
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# User secrets
+**/secrets.json
+
+# Mono Auto Generated Files
+mono_crash.*
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# DotNet test results
+TestResults/
+
+# Config folder for publishing
+App_Data/
+PublishProfiles/
+
+# Azure Pipelines
+.vsts/
