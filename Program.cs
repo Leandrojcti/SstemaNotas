@@ -8,7 +8,12 @@ builder.Services.AddControllersWithViews();
 
 //string de conexao com banco de dados
 builder.Services.AddDbContext<ClaseContext>(Options => Options.UseSqlServer
-("Server=DESKTOP-E98EF1T\\SQLEXPRESS; Database=NotasDataBase; trusted_connection=true; trustservercertificate=true"));
+
+//string de conexão database server remote azure
+("Server=tcp:notasdb.database.windows.net,1433;Initial Catalog=NotasDataBase;Persist Security Info=False;User ID=leandro;Password=Le841626;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=true;Connection Timeout=30;\r\n"));
+
+//String de conexão database local
+// ("Server=DESKTOP-E98EF1T\\SQLEXPRESS; Database=NotasDataBase; trusted_connection=true; trustservercertificate=true"));
 
 // Adiciona os serviços de sessão
 builder.Services.AddSession(options =>

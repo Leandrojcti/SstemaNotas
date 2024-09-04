@@ -23,7 +23,7 @@
                 </textarea>
                 <span asp-validation-for="Conteudo" class="text-danger"></span>
             </div>
-            <div class="form-group">
+            <div class="form-group d-flex flex-wrap gap-2 ">
                 <input type="submit" value="Adicionar" class="btn btn-primary" /> |
                 <a asp-action="Index" class="btn btn-primary">Voltar Para Lista</a> |
                 <a href="@Url.Action("EncerrarSessao", "Notas")" class="btn btn-primary">Encerrar Sessão de Senha</a>

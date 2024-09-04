@@ -27,11 +27,14 @@
             @Html.Raw(conteudo)
         </dd>
     </dl>
-    
+
+    <div class="form-group d-flex flex-wrap gap-2">
     <form asp-action="Delete">
         <input type="hidden" asp-for="id" />
         <input type="submit" value="Apagar" class="btn btn-danger" /> |
         <a asp-action="Index" class="btn btn-primary" >Voltar</a> |
         <a href="@Url.Action("EncerrarSessao", "Notas")" class="btn btn-primary">Encerrar Sessão de Senha</a>
     </form>
+</div>
+
 </div>

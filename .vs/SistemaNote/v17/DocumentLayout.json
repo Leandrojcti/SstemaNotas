@@ -3,28 +3,28 @@
   "WorkspaceRootPath": "C:\\Estudos Programa\u00E7\u00E3o\\SistemaNot\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DA1ADB92-82E9-4132-AB7F-065F31B64285}|SistemaNote.csproj|c:\\estudos programa\u00E7\u00E3o\\sistemanot\\views\\notas\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DA1ADB92-82E9-4132-AB7F-065F31B64285}|SistemaNote.csproj|solutionrelative:views\\notas\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DA1ADB92-82E9-4132-AB7F-065F31B64285}|SistemaNote.csproj|c:\\estudos programa\u00E7\u00E3o\\sistemanot\\views\\notas\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DA1ADB92-82E9-4132-AB7F-065F31B64285}|SistemaNote.csproj|solutionrelative:views\\notas\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DA1ADB92-82E9-4132-AB7F-065F31B64285}|SistemaNote.csproj|c:\\estudos programa\u00E7\u00E3o\\sistemanot\\views\\notas\\requerersenha.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DA1ADB92-82E9-4132-AB7F-065F31B64285}|SistemaNote.csproj|solutionrelative:views\\notas\\requerersenha.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DA1ADB92-82E9-4132-AB7F-065F31B64285}|SistemaNote.csproj|c:\\estudos programa\u00E7\u00E3o\\sistemanot\\controllers\\notascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DA1ADB92-82E9-4132-AB7F-065F31B64285}|SistemaNote.csproj|solutionrelative:controllers\\notascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DA1ADB92-82E9-4132-AB7F-065F31B64285}|SistemaNote.csproj|c:\\estudos programa\u00E7\u00E3o\\sistemanot\\views\\notas\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{DA1ADB92-82E9-4132-AB7F-065F31B64285}|SistemaNote.csproj|solutionrelative:views\\notas\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DA1ADB92-82E9-4132-AB7F-065F31B64285}|SistemaNote.csproj|c:\\estudos programa\u00E7\u00E3o\\sistemanot\\models\\senhamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DA1ADB92-82E9-4132-AB7F-065F31B64285}|SistemaNote.csproj|solutionrelative:models\\senhamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DA1ADB92-82E9-4132-AB7F-065F31B64285}|SistemaNote.csproj|c:\\estudos programa\u00E7\u00E3o\\sistemanot\\views\\notas\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DA1ADB92-82E9-4132-AB7F-065F31B64285}|SistemaNote.csproj|solutionrelative:views\\notas\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA1ADB92-82E9-4132-AB7F-065F31B64285}|SistemaNote.csproj|c:\\estudos programa\u00E7\u00E3o\\sistemanot\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA1ADB92-82E9-4132-AB7F-065F31B64285}|SistemaNote.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA1ADB92-82E9-4132-AB7F-065F31B64285}|SistemaNote.csproj|c:\\estudos programa\u00E7\u00E3o\\sistemanot\\sistemanote.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{DA1ADB92-82E9-4132-AB7F-065F31B64285}|SistemaNote.csproj|solutionrelative:sistemanote.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA1ADB92-82E9-4132-AB7F-065F31B64285}|SistemaNote.csproj|c:\\estudos programa\u00E7\u00E3o\\sistemanot\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DA1ADB92-82E9-4132-AB7F-065F31B64285}|SistemaNote.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA1ADB92-82E9-4132-AB7F-065F31B64285}|SistemaNote.csproj|c:\\estudos programa\u00E7\u00E3o\\sistemanot\\views\\notas\\requerersenha.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DA1ADB92-82E9-4132-AB7F-065F31B64285}|SistemaNote.csproj|solutionrelative:views\\notas\\requerersenha.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DA1ADB92-82E9-4132-AB7F-065F31B64285}|SistemaNote.csproj|c:\\estudos programa\u00E7\u00E3o\\sistemanot\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -38,45 +38,69 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Estudos Programa\u00E7\u00E3o\\SistemaNot\\Views\\Notas\\Delete.cshtml",
               "RelativeDocumentMoniker": "Views\\Notas\\Delete.cshtml",
               "ToolTip": "C:\\Estudos Programa\u00E7\u00E3o\\SistemaNot\\Views\\Notas\\Delete.cshtml",
               "RelativeToolTip": "Views\\Notas\\Delete.cshtml",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAACUAAAAAAAAA",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAACcAAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-21T03:00:09.525Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Estudos Programa\u00E7\u00E3o\\SistemaNot\\Views\\Notas\\Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\Notas\\Create.cshtml",
-              "ToolTip": "C:\\Estudos Programa\u00E7\u00E3o\\SistemaNot\\Views\\Notas\\Create.cshtml",
-              "RelativeToolTip": "Views\\Notas\\Create.cshtml",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAABMAAABIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-21T02:53:31.001Z",
+              "WhenOpened": "2024-09-04T01:01:52.853Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Estudos Programa\u00E7\u00E3o\\SistemaNot\\Views\\Notas\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Views\\Notas\\Edit.cshtml",
-              "ToolTip": "C:\\Estudos Programa\u00E7\u00E3o\\SistemaNot\\Views\\Notas\\Edit.cshtml",
-              "RelativeToolTip": "Views\\Notas\\Edit.cshtml",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAACMAAABpAAAA",
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Estudos Programa\u00E7\u00E3o\\SistemaNot\\Views\\Notas\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Notas\\Create.cshtml",
+              "ToolTip": "C:\\Estudos Programa\u00E7\u00E3o\\SistemaNot\\Views\\Notas\\Create.cshtml",
+              "RelativeToolTip": "Views\\Notas\\Create.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABkAAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-21T02:49:13.405Z",
+              "WhenOpened": "2024-09-04T00:46:28.083Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Estudos Programa\u00E7\u00E3o\\SistemaNot\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Estudos Programa\u00E7\u00E3o\\SistemaNot\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-03T00:47:59.498Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SistemaNote.csproj",
+              "DocumentMoniker": "C:\\Estudos Programa\u00E7\u00E3o\\SistemaNot\\SistemaNote.csproj",
+              "RelativeDocumentMoniker": "SistemaNote.csproj",
+              "ToolTip": "C:\\Estudos Programa\u00E7\u00E3o\\SistemaNot\\SistemaNote.csproj",
+              "RelativeToolTip": "SistemaNote.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-23T02:27:52.636Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RequererSenha.cshtml",
+              "DocumentMoniker": "C:\\Estudos Programa\u00E7\u00E3o\\SistemaNot\\Views\\Notas\\RequererSenha.cshtml",
+              "RelativeDocumentMoniker": "Views\\Notas\\RequererSenha.cshtml",
+              "ToolTip": "C:\\Estudos Programa\u00E7\u00E3o\\SistemaNot\\Views\\Notas\\RequererSenha.cshtml",
+              "RelativeToolTip": "Views\\Notas\\RequererSenha.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-23T01:48:12.363Z"
             },
             {
               "$type": "Document",
@@ -86,46 +110,21 @@
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Estudos Programa\u00E7\u00E3o\\SistemaNot\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAC0AAAAAAAAAAAAAAEQAAAAWAAAA",
+              "ViewState": "AQIAADYAAAAAAAAAAAAAADkAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-20T00:23:31Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "SenhaModel.cs",
-              "DocumentMoniker": "C:\\Estudos Programa\u00E7\u00E3o\\SistemaNot\\Models\\SenhaModel.cs",
-              "RelativeDocumentMoniker": "Models\\SenhaModel.cs",
-              "ToolTip": "C:\\Estudos Programa\u00E7\u00E3o\\SistemaNot\\Models\\SenhaModel.cs",
-              "RelativeToolTip": "Models\\SenhaModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-16T02:36:31.749Z"
+              "WhenOpened": "2024-08-23T01:08:53.852Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "RequererSenha.cshtml",
-              "DocumentMoniker": "C:\\Estudos Programa\u00E7\u00E3o\\SistemaNot\\Views\\Notas\\RequererSenha.cshtml",
-              "RelativeDocumentMoniker": "Views\\Notas\\RequererSenha.cshtml",
-              "ToolTip": "C:\\Estudos Programa\u00E7\u00E3o\\SistemaNot\\Views\\Notas\\RequererSenha.cshtml",
-              "RelativeToolTip": "Views\\Notas\\RequererSenha.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-16T02:33:52.042Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "NotasController.cs",
-              "DocumentMoniker": "C:\\Estudos Programa\u00E7\u00E3o\\SistemaNot\\Controllers\\NotasController.cs",
-              "RelativeDocumentMoniker": "Controllers\\NotasController.cs",
-              "ToolTip": "C:\\Estudos Programa\u00E7\u00E3o\\SistemaNot\\Controllers\\NotasController.cs",
-              "RelativeToolTip": "Controllers\\NotasController.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAAADQAAAArAAAA",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Estudos Programa\u00E7\u00E3o\\SistemaNot\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Estudos Programa\u00E7\u00E3o\\SistemaNot\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-16T02:32:21.054Z",
+              "WhenOpened": "2024-08-23T00:02:44.628Z",
               "EditorCaption": ""
             }
           ]
