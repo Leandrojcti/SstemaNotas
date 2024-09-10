@@ -18,96 +18,145 @@
 <body class="d-flex flex-column min-vh-100">
 
     <header class="bg-secundary text-white fixed-top" >
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3 ">
-            <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">SistemaNote</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+      
+     <nav class="navbar navbar-expand-sm navbar-light bg-custom border-bottom box-shadow mb-3">
+        <div class="container-fluid">
+        <a class="navbar-brand text-white" asp-area="" asp-controller="Home" asp-action="Index">SistemaNote</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
+        <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+            <ul class="navbar-nav flex-grow-1">
+                <li class="nav-item">
+                    <a class="nav-link text-light" asp-area="" asp-controller="Notas" asp-action="Create">Inserir/Editar Notas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" asp-area="" asp-controller="Notas" asp-action="IndexNotas">Listagem</a>
+                </li>
+            </ul>
+        </div>
 
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Notas" asp-action="Create">Inserir/Editar Notas</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Notas" asp-action="Index">Listagem</a>
-                        </li>
-                       
-                    
-
-                    </ul>
-                </div>
-
-                <div class ="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                <div>
-                    <ul class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            C# Udemy Exercícios
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="@Url.Action("Notas", "Home", new { NomeNota = "Lógica Recapitulacao" })">Recapitulação Lógica</a>
-                                <a class="dropdown-item" href="@Url.Action("Notas", "Home", new { NomeNota = "Classes" })">Classes</a>
-                                <a class="dropdown-item" href="@Url.Action("Notas", "Home", new { NomeNota = "Sobrecarga Encapsulamento" })">Sobrecarga/Encapsulamento</a>
-                                <a class="dropdown-item" href="@Url.Action("Notas", "Home", new { NomeNota = "Vetores Listas Matrizes" })">Vetores Listas Matrizes</a>
-                                <a class="dropdown-item" href="@Url.Action("Notas", "Home", new { NomeNota = "Tópicos Especiais" })">Tópicos Especiais DateTime</a>
-                                <a class="dropdown-item" href="@Url.Action("Notas", "Home", new { NomeNota = "Enumerações Composição" })">Enumerações Composição</a>
-                                <a class="dropdown-item" href="@Url.Action("Notas", "Home", new { NomeNota = "Herança e Polimorfismo" })">Herança e Polimorfismo</a>
-                                <a class="dropdown-item" href="@Url.Action("Notas", "Home", new { NomeNota = "Excessões" })">Excessões</a>
-                                <a class="dropdown-item" href="@Url.Action("Notas", "Home", new { NomeNota = "Arquivos" })">Arquivos</a>
-                                <a class="dropdown-item" href="@Url.Action("Notas", "Home", new { NomeNota = "Interface" })">Interfaces</a>
-                                <a class="dropdown-item" href="@Url.Action("Notas", "Home", new { NomeNota = "Interface 2 Contratos" })">Interfaces 2 Contratos</a>
-                                <a class="dropdown-item" href="@Url.Action("Notas", "Home", new { NomeNota = "ContaBancoClasses" })">Ex. Conta Banco Classes</a>
-                                <a class="dropdown-item" href="@Url.Action("Notas", "Home", new { NomeNota = "ContaBancoProgram" })">Ex. Conta Banco Program</a>
-                                <a class="dropdown-item" href="@Url.Action("Notas", "Home", new { NomeNota = "LerTXT" })">Ler Arquivos de Texto</a>
-                                <a class="dropdown-item" href="@Url.Action("RequererSenha", "Notas", new { NomeNota = "LerTXT" })">Link para view Val senha</a>
-                         
+        <!-- Dropdown Menus -->
+        <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+            <!-- Menu C# Udemy Exercícios -->
+            <div class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown1" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    C# Udemy Exercícios
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                            <a class="dropdown-item" href="@Url.Action("Notas", "Home", new { NomeNota = "Lógica Recapitulacao" })">Recapitulação Lógica</a>
+                            <a class="dropdown-item" href="@Url.Action("Notas", "Home", new { NomeNota = "Classes" })">Classes</a>
+                            <a class="dropdown-item" href="@Url.Action("Notas", "Home", new { NomeNota = "Sobrecarga Encapsulamento" })">Sobrecarga/Encapsulamento</a>
+                            <a class="dropdown-item" href="@Url.Action("Notas", "Home", new { NomeNota = "Vetores Listas Matrizes" })">Vetores Listas Matrizes</a>
+                            <a class="dropdown-item" href="@Url.Action("Notas", "Home", new { NomeNota = "Tópicos Especiais" })">Tópicos Especiais DateTime</a>
+                            <a class="dropdown-item" href="@Url.Action("Notas", "Home", new { NomeNota = "Enumerações Composição" })">Enumerações Composição</a>
+                            <a class="dropdown-item" href="@Url.Action("Notas", "Home", new { NomeNota = "Herança e Polimorfismo" })">Herança e Polimorfismo</a>
+                            <a class="dropdown-item" href="@Url.Action("Notas", "Home", new { NomeNota = "Excessões" })">Excessões</a>
+                            <a class="dropdown-item" href="@Url.Action("Notas", "Home", new { NomeNota = "Arquivos" })">Arquivos</a>
+                            <a class="dropdown-item" href="@Url.Action("Notas", "Home", new { NomeNota = "Interface" })">Interfaces</a>
+                            <a class="dropdown-item" href="@Url.Action("Notas", "Home", new { NomeNota = "Interface 2 Contratos" })">Interfaces 2 Contratos</a>
+                            <a class="dropdown-item" href="@Url.Action("Notas", "Home", new { NomeNota = "ContaBancoClasses" })">Ex. Conta Banco Classes</a>
+                            <a class="dropdown-item" href="@Url.Action("Notas", "Home", new { NomeNota = "ContaBancoProgram" })">Ex. Conta Banco Program</a>
+                            <a class="dropdown-item" href="@Url.Action("Notas", "Home", new { NomeNota = "LerTXT" })">Ler Arquivos de Texto</a>
                         </div>
-                    </ul>
-                </div>
-
-                <div>
-                    <ul class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Notas Variadas
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="@Url.Action("Notas","Home", new { NomeNota = "Git Hub" })">Git Hub</a>
-                                <a class="dropdown-item" href="@Url.Action("Notas","Home", new { NomeNota = "Comandos SQL" })">Comandos SQL</a>
-                           
-                        </div>
-                    </ul>
-                </div>
-                    <div>
-                        <ul class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Outro Menu
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="@Url.Action("Notas", new { NomeNota = "NomeVar" })">Item</a>
-
-                            </div>
-                        </ul>
-                    </div>
-                    <div>
-                        <ul class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Outro Menu
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="@Url.Action("Notas", new { NomeNota = "NomeVar" })">Item</a>
-
-                            </div>
-                        </ul>
-                    </div>
-
-               </div>
-
+                        
+                  
+               
             </div>
 
-        </nav>
+            <!-- Menu Notas Variadas -->
+            <div class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown2" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Notas Variadas
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                            <a class="dropdown-item" href="@Url.Action("Notas","Home", new { NomeNota = "Git Hub" })">Git Hub</a>
+                            <a class="dropdown-item" href="@Url.Action("Notas","Home", new { NomeNota = "Comandos SQL" })">Comandos SQL</a>
+                 
+                </div>
+
+                </div>
+
+                    <!--Outro menu -->
+                    <div class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown2" role="button" data-bs-toggle="dropdown"
+                           aria-expanded="false">
+                            Outro Menu
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                            <a class="dropdown-item" href="@Url.Action("Acao","controlador", new { NomeNota = "xxx" })">Iten 1</a>
+                            <a class="dropdown-item" href="@Url.Action("Acao","Controlador", new { NomeNota = "xxx" })">Iten 2</a>
+
+                        </div>
+
+                    </div>
+
+                    <!--Outro menu-->
+                    <div class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown2" role="button" data-bs-toggle="dropdown"
+                           aria-expanded="false">
+                            Outro Menu
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                            <a class="dropdown-item" href="@Url.Action("Acao","controlador", new { NomeNota = "xxx" })">Iten 1</a>
+                            <a class="dropdown-item" href="@Url.Action("Acao","Controlador", new { NomeNota = "xxx" })">Iten 2</a>
+
+                        </div>
+
+                    </div>
+
+           
+        </div>
+    </div>
+</nav>
+
+<!-- CSS Customizado -->
+<style>
+    .bg-custom {
+        background: linear-gradient(135deg, #4b79a1, #283e51); /* Exemplo de gradiente */
+    }
+
+    .navbar-brand {
+        font-weight: bold;
+        font-size: 1.25rem;
+    }
+
+    .nav-link {
+        transition: color 0.3s;
+    }
+
+    .nav-link:hover {
+        color: #ffc107; /* Cor de destaque ao passar o mouse */
+    }
+
+    .dropdown-menu {
+        background-color: #283e51; /* Cor de fundo do dropdown */
+    }
+
+    .dropdown-item {
+        color: #fff;
+        transition: background-color 0.3s, color 0.3s;
+    }
+
+    .dropdown-item:hover {
+        background-color: #4b79a1;
+        color: #fff;
+    }
+
+    .navbar-toggler {
+        border-color: rgba(255, 255, 255, 0.1);
+    }
+
+    .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28255, 255, 255, 0.5%29' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+    }
+</style>
+
+
     </header>
 
 

@@ -59,7 +59,7 @@ namespace SistemaNote.Controllers
         //----------------------------------------------------------------------------------------------------
 
         // GET: Notas
-        public async Task<IActionResult> Index()  
+        public async Task<IActionResult> IndexNotas()  
         {
             return View(await _context.notas.ToListAsync());
         }
