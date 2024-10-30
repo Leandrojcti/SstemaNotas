@@ -82,7 +82,7 @@ namespace SistemaNote.Controllers
             {
                 _context.Add(notas);
                 await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                return RedirectToAction(nameof(IndexNotas));
             }
             return View(notas);
         }
@@ -151,7 +151,7 @@ namespace SistemaNote.Controllers
                         throw;
                     }
                 }
-                return RedirectToAction(nameof(Index));
+                return RedirectToAction(nameof(IndexNotas));
             }
             return View(notas);
         }
@@ -163,7 +163,7 @@ namespace SistemaNote.Controllers
             if (!HttpContext.Session.TryGetValue("PasswordVerified", out _))
             {
                 // Redireciona o usuário para a página de solicitação de senha
-                //new = preenche a propriedade ReturUrl com a url do edit 
+                //new = preenche a propriedade ReturUrl com a url do delete 
                 return RedirectToAction("RequererSenha", new { ReturnUrl = Url.Action("Delete", "Notas", new { id }) });
             }
 
@@ -194,7 +194,7 @@ namespace SistemaNote.Controllers
             }
 
             await _context.SaveChangesAsync();
-            return RedirectToAction(nameof(Index));
+            return RedirectToAction(nameof(IndexNotas));
         }
 
         private bool NotasExists(int id)
